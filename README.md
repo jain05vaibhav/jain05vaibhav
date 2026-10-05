@@ -5,13 +5,6 @@
 
   <br/><br/>
 
-  <!-- Dynamic Typing Headline -->
-  <a href="https://github.com/jain05vaibhav">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=650&height=40&lines=👋+Hello%2C+World!+I'm+Vaibhav+Jain;🚀+AI+%26+Machine+Learning+Engineer;🧠+Building+Autonomous+Agents+%26+LLM+Pipelines;⚡+High-Performance+C%2B%2B+%26+Deep+Neural+Systems" alt="Typing SVG" />
-  </a>
-
-  <br/><br/>
-
   <!-- Interactive Terminal HUD Cockpit -->
   <img src="assets/terminal_hud.svg" alt="Neural Terminal HUD" width="100%" />
 
@@ -132,7 +125,7 @@
 
 <div align="center">
   <!-- 3D Isometric Contribution City generated via GitHub Actions (city.yml) -->
-  <img src="profile-3d-city.svg" alt="3D City Contributions" width="100%" onerror="this.src='https://github-readme-activity-graph.vercel.app/graph?username=jain05vaibhav&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ff007a'" />
+  <img src="profile-3d-city.svg" alt="3D City Contributions" width="100%" />
 </div>
 
 <p align="center">
