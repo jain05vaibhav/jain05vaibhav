@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cyan">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaibhav Jain | AI/ML Engineer &amp; Full-Stack Developer</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Portfolio of Vaibhav Jain - AI/ML Engineer, Generative AI &amp; LLM Specialist, Computer Vision Developer, and Full-Stack Builder. Explore projects, live GitHub telemetry, and interactive cyber terminal.">
+  <meta name="keywords" content="Vaibhav Jain, AI Engineer, Machine Learning, Generative AI, LLMs, Computer Vision, Full Stack, Python, C++, Portfolio, GitHub">
+  <meta name="author" content="Vaibhav Jain">
+  <meta property="og:title" content="Vaibhav Jain | AI/ML Engineer &amp; Developer Portfolio">
+  <meta property="og:description" content="Interactive Cyberpunk Developer Portfolio featuring Live GitHub Repos, Terminal CLI, and AI/ML Innovations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jain05vaibhav.github.io">
+  <meta name="theme-color" content="#060913">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/avatar.svg">
+
+  <!-- Futuristic Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cyber-body">
+
+  <!-- Interactive Particle Constellation Canvas -->
+  <canvas id="cyber-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Cyber Glow Backdrop -->
+  <div class="glow-orb orb-primary" aria-hidden="true"></div>
+  <div class="glow-orb orb-secondary" aria-hidden="true"></div>
+  <div class="glow-orb orb-accent" aria-hidden="true"></div>
+
+  <!-- Header Navigation -->
+  <header class="cyber-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="logo-link">
+        <span class="logo-bracket">[</span>
+        <span class="logo-symbol">VJ</span>
+        <span class="logo-bracket">]</span>
+        <span class="logo-pulse"></span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="#about" class="nav-item"><span>// 01.</span> About</a>
+        <a href="#projects" class="nav-item"><span>// 02.</span> Projects</a>
+        <a href="#skills" class="nav-item"><span>// 03.</span> Arsenal</a>
+        <a href="#telemetry" class="nav-item"><span>// 04.</span> Telemetry</a>
+        <a href="#contact" class="nav-item"><span>// 05.</span> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Audio Synth Toggle -->
+        <button id="sfx-toggle" class="icon-btn" title="Toggle Sci-Fi SFX Audio" aria-label="Toggle Sound Effects">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path class="sfx-wave" d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+          </svg>
+          <span class="btn-label">SFX</span>
+        </button>
+
+        <!-- Theme Accent Switcher -->
+        <div class="theme-dropdown">
+          <button id="theme-btn" class="icon-btn" title="Switch Theme Color Accent" aria-label="Theme Accent Selector">
+            <span class="theme-dot"></span>
+            <span class="btn-label">Neon</span>
+          </button>
+          <div class="theme-menu" id="theme-menu">
+            <button class="theme-option active" data-set-theme="cyan">
+              <span class="color-preview cyan-preview"></span> Electric Cyan
+            </button>
+            <button class="theme-option" data-set-theme="purple">
+              <span class="color-preview purple-preview"></span> Tokyo Violet
+            </button>
+            <button class="theme-option" data-set-theme="matrix">
+              <span class="color-preview matrix-preview"></span> Acid Matrix
+            </button>
+          </div>
+        </div>
+
+        <!-- Terminal CLI Launcher -->
+        <button id="terminal-trigger-btn" class="cyber-btn sm-btn glow-btn" title="Open Interactive CLI Terminal (Shortcut: ` or ~)">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+          <span>CLI [~]</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="section-container hero-grid">
+        <div class="hero-content">
+          <div class="system-status-badge">
+            <span class="live-dot"></span>
+            <span class="status-code">SYS_ONLINE // OPEN FOR OPPORTUNITIES</span>
+          </div>
+
+          <div class="terminal-prefix">
+            <span class="prompt-user">guest@vaibhav-ai</span>:<span class="prompt-dir">~</span>$&nbsp;<span class="command-run">cat intro.sh</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text glitch-text" data-text="VAIBHAV JAIN">VAIBHAV JAIN</span>
+          </h1>
+
+          <div class="typing-container">
+            <span class="typing-prefix">&gt; </span>
+            <span id="typing-text" class="typing-element"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-desc">
+            Architecting intelligent systems at the intersection of <strong>Deep Learning</strong>, 
+            <strong>Generative AI &amp; LLMs</strong>, and <strong>High-Performance Algorithms</strong>. 
+            Passionate about turning complex mathematical intelligence into production-grade solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="cyber-btn primary-btn glow-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              <span>Explore Projects</span>
+            </a>
+
+            <button id="hero-terminal-btn" class="cyber-btn secondary-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+              <span>Launch Terminal</span>
+            </button>
+
+            <button id="profile-readme-btn" class="cyber-btn ghost-btn" title="Inspect GitHub Profile README Specification">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub README</span>
+            </button>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats-bar">
+            <div class="stat-cell">
+              <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">AI &amp; Web Repos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-cell">
+              <span class="stat-number" data-target="99">0</span><span class="stat-plus">%</span>
+              <span class="stat-label">Model Precision Goals</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-cell">
+              <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
+              <span class="stat-label">Algorithms Optimized</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-cell">
+              <span class="stat-number" data-target="24">0</span><span class="stat-plus">/7</span>
+              <span class="stat-label">Dev Passion</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic Holographic Card -->
+        <div class="hero-visual">
+          <div class="cyber-card-outer">
+            <div class="cyber-card-inner">
+              <div class="card-corner corner-tl"></div>
+              <div class="card-corner corner-tr"></div>
+              <div class="card-corner corner-bl"></div>
+              <div class="card-corner corner-br"></div>
+
+              <div class="hologram-wrapper">
+                <div class="hologram-rings"></div>
+                <img src="assets/avatar.svg" alt="Vaibhav Jain Hologram Avatar" class="hologram-avatar" />
+                <div class="scanline"></div>
+              </div>
+
+              <div class="hologram-info">
+                <div class="info-tag">NODE: VAIBHAV_JAIN</div>
+                <div class="info-sub">SPECIALIZATION: AI / ML / GENAI / FULL-STACK</div>
+                <div class="info-chips">
+                  <span class="chip">PyTorch</span>
+                  <span class="chip">LLMs</span>
+                  <span class="chip">Computer Vision</span>
+                  <span class="chip">C++</span>
+                  <span class="chip">FastAPI</span>
+                </div>
+              </div>
+
+              <!-- Terminal Ping Ticker -->
+              <div class="card-footer-ticker">
+                <span class="ticker-dot"></span>
+                <span class="ticker-text">LATENCY: 12ms // GITHUB API SYNCED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+        <span class="scroll-text">SCROLL DOWN</span>
+      </a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">// 01. CORE ARCHITECTURE</div>
+          <h2 class="section-title">About My Engineering Journey</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel bio-card">
+            <div class="card-hud-header">
+              <span class="hud-dot red"></span>
+              <span class="hud-dot yellow"></span>
+              <span class="hud-dot green"></span>
+              <span class="hud-title">identity_profile.json</span>
+            </div>
+            <div class="bio-content">
+              <p>
+                I am a passionate <strong>Computer Science Engineer</strong> focused on building production-grade 
+                Artificial Intelligence, scalable Machine Learning pipelines, and intuitive user experiences.
+              </p>
+              <p>
+                From building <strong>Pareto-optimal predictive compression models</strong> to architecting 
+                <strong>Generative AI concierge assistants</strong> and <strong>Computer Vision traffic intelligence</strong>, 
+                I thrive on solving intricate computational challenges that demand speed, mathematical rigor, and elegant software design.
+              </p>
+              <p>
+                When not training neural networks or benchmarking algorithms, I enjoy exploring cutting-edge developments in 
+                Autonomous Agents, Speech Processing, and Distributed Systems.
+              </p>
+
+              <div class="bio-specs">
+                <div class="spec-row">
+                  <span class="spec-key">📍 Location:</span>
+                  <span class="spec-val">India (Available Globally Remote / Relocation)</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">🎓 Background:</span>
+                  <span class="spec-val">Computer Science &amp; Engineering</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">⚡ Primary Focus:</span>
+                  <span class="spec-val">Machine Learning, GenAI, Deep Learning &amp; Web Systems</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">✉️ Direct Email:</span>
+                  <span class="spec-val highlight-val">jain05vaibhav@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card glass-panel pillars-card">
+            <h3 class="pillars-title">Core Engineering Pillars</h3>
+            
+            <div class="pillar-item">
+              <div class="pillar-icon">🤖</div>
+              <div class="pillar-details">
+                <h4>Generative AI &amp; Autonomous Agents</h4>
+                <p>Developing RAG pipelines, fine-tuned LLM workflows, LangChain orchestration, and multi-turn conversational agents with low inference latency.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">🧠</div>
+              <div class="pillar-details">
+                <h4>Deep Learning &amp; Computer Vision</h4>
+                <p>Architecting CNNs, YOLO object detection models, sentiment NLP classifiers, and reinforcement learning systems (DQN).</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">⚡</div>
+              <div class="pillar-details">
+                <h4>Algorithmic Optimization &amp; C++</h4>
+                <p>Solving complex data structures, dynamic programming paradigms, graph theory problems, and optimizing Pareto efficiency.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">🌐</div>
+              <div class="pillar-details">
+                <h4>Full-Stack Microservices &amp; APIs</h4>
+                <p>Engineering high-throughput REST APIs using FastAPI, Flask, and Node.js with modern responsive web interfaces.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">// 02. INNOVATION MATRIX</div>
+          <h2 class="section-title">Featured Repositories &amp; Projects</h2>
+          <div class="header-line"></div>
+          <p class="section-description">
+            Real repositories automatically synchronized with GitHub. Filter by domain or search for specific technologies.
+          </p>
+        </div>
+
+        <!-- Filter & Search Controls -->
+        <div class="projects-controls glass-panel">
+          <div class="filter-tabs" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects (<span id="count-all">0</span>)</button>
+            <button class="filter-btn" data-filter="ai-ml">AI / ML &amp; GenAI (<span id="count-ai">0</span>)</button>
+            <button class="filter-btn" data-filter="cv-audio">CV &amp; Audio (<span id="count-cv">0</span>)</button>
+            <button class="filter-btn" data-filter="algorithms">Algorithms &amp; Core (<span id="count-algo">0</span>)</button>
+            <button class="filter-btn" data-filter="web">Web &amp; Systems (<span id="count-web">0</span>)</button>
+          </div>
+
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="project-search" placeholder="Search projects by keyword, tech, or topic..." aria-label="Search projects">
+          </div>
+        </div>
+
+        <!-- Dynamic Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated dynamically by app.js -->
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Interfacing with GitHub API &amp; loading repositories...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">// 03. TECHNICAL ARSENAL</div>
+          <h2 class="section-title">Proficiencies &amp; Tooling Matrix</h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Category Tabs -->
+          <div class="skills-nav" id="skills-nav">
+            <button class="skill-tab active" data-skill-cat="ai">🧠 AI, ML &amp; Data Science</button>
+            <button class="skill-tab" data-skill-cat="genai">⚡ Generative AI &amp; LLMs</button>
+            <button class="skill-tab" data-skill-cat="languages">💻 Core Languages</button>
+            <button class="skill-tab" data-skill-cat="web">🌐 Web &amp; Backend APIs</button>
+            <button class="skill-tab" data-skill-cat="devops">🛠️ Databases &amp; DevOps</button>
+          </div>
+
+          <!-- Dynamic Skill Panels -->
+          <div class="skills-content glass-panel" id="skills-display">
+            <!-- Rendered by JS based on selected category -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TELEMETRY & GITHUB STATS SECTION -->
+    <section class="section telemetry-section" id="telemetry">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">// 04. REAL-TIME ACTIVITY</div>
+          <h2 class="section-title">GitHub Telemetry &amp; Stats</h2>
+          <div class="header-line"></div>
+          <p class="section-description">
+            Live telemetry data pulled directly from GitHub profile <a href="https://github.com/jain05vaibhav" target="_blank" rel="noopener" class="highlight-link">@jain05vaibhav</a>.
+          </p>
+        </div>
+
+        <div class="telemetry-grid">
+          <!-- GitHub Readme Stats Card -->
+          <div class="telemetry-card glass-panel">
+            <div class="telemetry-badge">LIFETIME METRICS</div>
+            <div class="card-img-wrapper">
+              <img src="https://github-readme-stats.vercel.app/api?username=jain05vaibhav&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0c1020&title_color=00f2fe&icon_color=a855f7&text_color=94a3b8" alt="GitHub Readme Stats" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Streak Card -->
+          <div class="telemetry-card glass-panel">
+            <div class="telemetry-badge">COMMIT STREAK</div>
+            <div class="card-img-wrapper">
+              <img src="https://streak-stats.demolab.com?user=jain05vaibhav&theme=tokyonight&hide_border=true&background=0c1020&ring=00f2fe&fire=ff007a&currStreakLabel=00f2fe&dates=94a3b8" alt="GitHub Streak Stats" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Languages Card -->
+          <div class="telemetry-card glass-panel">
+            <div class="telemetry-badge">LANGUAGE DISTRIBUTION</div>
+            <div class="card-img-wrapper">
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jain05vaibhav&layout=compact&theme=tokyonight&hide_border=true&bg_color=0c1020&title_color=00f2fe&text_color=94a3b8" alt="Top Languages" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Profile Trophies -->
+          <div class="telemetry-card glass-panel">
+            <div class="telemetry-badge">EARNED TROPHIES</div>
+            <div class="card-img-wrapper">
+              <img src="https://github-profile-trophy.vercel.app/?username=jain05vaibhav&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" loading="lazy" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contribution Heatmap Simulator -->
+        <div class="heatmap-panel glass-panel">
+          <div class="heatmap-header">
+            <div>
+              <h3>Interactive Contribution Activity Matrix</h3>
+              <p class="heatmap-sub">Simulated contribution frequency &amp; real-time activity distribution</p>
+            </div>
+            <div class="heatmap-legend">
+              <span>Less</span>
+              <span class="legend-cell lvl-0"></span>
+              <span class="legend-cell lvl-1"></span>
+              <span class="legend-cell lvl-2"></span>
+              <span class="legend-cell lvl-3"></span>
+              <span class="legend-cell lvl-4"></span>
+              <span>More</span>
+            </div>
+          </div>
+
+          <div class="heatmap-grid" id="heatmap-grid">
+            <!-- 52 weeks x 7 days cells generated dynamically -->
+          </div>
+
+          <div class="heatmap-tooltip" id="heatmap-tooltip">Hover over a node to inspect commits</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-subtitle">// 05. TRANSMISSION PROTOCOL</div>
+          <h2 class="section-title">Initiate Transmission</h2>
+          <div class="header-line"></div>
+          <p class="section-description">
+            Have a project in mind, want to collaborate on AI/ML research, or explore employment opportunities? Let's connect!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-details">
+            <div class="contact-item glass-panel">
+              <div class="contact-icon">📧</div>
+              <div class="contact-info">
+                <h4>Direct Email</h4>
+                <p>jain05vaibhav@gmail.com</p>
+                <button class="copy-btn sm-btn" id="copy-email-btn" data-email="jain05vaibhav@gmail.com">
+                  <span class="copy-text">Copy Email Address</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-item glass-panel">
+              <div class="contact-icon">🐙</div>
+              <div class="contact-info">
+                <h4>GitHub Profile</h4>
+                <p>Explore all repositories, forks, and starred projects.</p>
+                <a href="https://github.com/jain05vaibhav" target="_blank" rel="noopener" class="cyber-link">
+                  github.com/jain05vaibhav &rarr;
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item glass-panel">
+              <div class="contact-icon">💼</div>
+              <div class="contact-info">
+                <h4>Professional Network</h4>
+                <p>Connect on LinkedIn for career milestones and updates.</p>
+                <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="cyber-link">
+                  LinkedIn Profile &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Transmission Form -->
+          <div class="contact-form-panel glass-panel">
+            <div class="card-hud-header">
+              <span class="hud-dot red"></span>
+              <span class="hud-dot yellow"></span>
+              <span class="hud-dot green"></span>
+              <span class="hud-title">transmit_message.sh</span>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="form-name">SENDER_NAME</label>
+                <input type="text" id="form-name" required placeholder="e.g. Elena Fisher / Tech Recruiter">
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">SENDER_EMAIL</label>
+                <input type="email" id="form-email" required placeholder="e.g. elena@company.com">
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">COMMUNICATION_TOPIC</label>
+                <input type="text" id="form-subject" required placeholder="e.g. Machine Learning Opportunity / Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">TRANSMISSION_PAYLOAD</label>
+                <textarea id="form-message" rows="4" required placeholder="Describe project scope, role, or message..."></textarea>
+              </div>
+
+              <button type="submit" class="cyber-btn primary-btn glow-btn w-full" id="transmit-btn">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Dispatch Transmission</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="cyber-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-symbol">[VJ]</span>
+        <span>VAIBHAV JAIN</span>
+        <span class="footer-tag">// AI/ML ENGINEER</span>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#hero">Back to Top</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="https://github.com/jain05vaibhav" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <div class="footer-copyright">
+        <span>&copy; <span id="current-year">2026</span> Vaibhav Jain. Engineered for the future.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING INTERACTIVE CLI TERMINAL MODAL -->
+  <div class="terminal-overlay" id="terminal-modal" aria-hidden="true">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <button class="dot close" id="term-close" title="Close Terminal" aria-label="Close Terminal"></button>
+          <button class="dot minimize" id="term-min" title="Minimize" aria-label="Minimize"></button>
+          <button class="dot maximize" id="term-max" title="Maximize" aria-label="Maximize"></button>
+        </div>
+        <div class="terminal-title">guest@vaibhav-ai: ~ (bash)</div>
+        <div class="terminal-hint">Press ESC to exit | Type 'help'</div>
+      </div>
+
+      <div class="terminal-body" id="terminal-output">
+        <div class="term-line welcome-line">
+          <span class="term-cyan">=====================================================</span><br>
+          <span class="term-bright">⚡ VAIBHAV JAIN - INTERACTIVE CYBER SHELL v2.4</span><br>
+          <span class="term-cyan">=====================================================</span><br>
+          Type <span class="term-yellow">'help'</span> to view available system commands.<br>
+          Type <span class="term-yellow">'projects'</span>, <span class="term-yellow">'skills'</span>, <span class="term-yellow">'about'</span>, or try <span class="term-green">'matrix'</span> / <span class="term-magenta">'snake'</span>!
+        </div>
+      </div>
+
+      <div class="terminal-input-row">
+        <span class="terminal-prompt">guest@vaibhav-ai:~$</span>
+        <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" placeholder="Type a command..." aria-label="Terminal command input" />
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT INSPECT MODAL -->
+  <div class="modal-overlay" id="project-modal" aria-hidden="true">
+    <div class="modal-card glass-panel">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modal-content">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- GITHUB PROFILE README PREVIEW MODAL -->
+  <div class="modal-overlay" id="readme-modal" aria-hidden="true">
+    <div class="modal-card glass-panel readme-modal-card">
+      <div class="card-hud-header">
+        <span class="hud-dot red"></span>
+        <span class="hud-dot yellow"></span>
+        <span class="hud-dot green"></span>
+        <span class="hud-title">github.com/jain05vaibhav/jain05vaibhav/README.md</span>
+        <button class="modal-close-corner" id="readme-modal-close" aria-label="Close README preview">&times;</button>
+      </div>
+
+      <div class="readme-modal-body">
+        <div class="readme-alert-box">
+          <span class="alert-icon">💡</span>
+          <div>
+            <strong>GitHub Profile Special Repository:</strong>
+            This README is configured for your special repository <code>jain05vaibhav/jain05vaibhav</code>. 
+            All files and the contribution snake workflow have been generated in <code>profile-readme/</code>!
+          </div>
+        </div>
+
+        <div class="readme-actions-row">
+          <button id="copy-readme-code" class="cyber-btn sm-btn primary-btn">
+            <span>Copy Raw Markdown</span>
+          </button>
+          <a href="profile-readme/README.md" target="_blank" class="cyber-btn sm-btn ghost-btn">
+            <span>Open Local File</span>
+          </a>
+        </div>
+
+        <div class="readme-rendered-preview" id="readme-preview-content">
+          <!-- Populated from Profile README -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Core JavaScript Application -->
+  <script src="app.js"></script>
+</body>
+</html>

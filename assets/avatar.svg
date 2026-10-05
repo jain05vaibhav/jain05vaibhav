@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#9d4edd" />
+    </linearGradient>
+    <linearGradient id="polyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 242, 254, 0.2)" />
+      <stop offset="100%" stop-color="rgba(157, 78, 221, 0.2)" />
+    </linearGradient>
+    <filter id="avatarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Orbit Ring with dashed animation -->
+  <circle cx="150" cy="150" r="135" fill="none" stroke="rgba(0, 242, 254, 0.25)" stroke-width="2" stroke-dasharray="8 6" />
+  <circle cx="150" cy="150" r="118" fill="none" stroke="rgba(157, 78, 221, 0.35)" stroke-width="1.5" />
+  
+  <!-- Orbiting Satellites -->
+  <circle cx="285" cy="150" r="4" fill="#00f2fe" filter="url(#avatarGlow)" />
+  <circle cx="65" cy="70" r="3.5" fill="#ff007a" filter="url(#avatarGlow)" />
+  <circle cx="150" cy="268" r="3.5" fill="#00f59b" filter="url(#avatarGlow)" />
+
+  <!-- Hexagonal Tech Shield -->
+  <polygon points="150,40 240,92 240,198 150,250 60,198 60,92" fill="url(#polyGrad)" stroke="url(#avatarGrad)" stroke-width="2.5" filter="url(#avatarGlow)" />
+
+  <!-- Inner Cyber Grid & Core -->
+  <circle cx="150" cy="150" r="75" fill="#0b1124" stroke="rgba(0, 242, 254, 0.3)" stroke-width="1.5" />
+
+  <!-- Stylized Neural / Developer Monogram "VJ" with Neural Nodes -->
+  <!-- Circuit Nodes & Connections -->
+  <g stroke="url(#avatarGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- V Shape -->
+    <path d="M 110 115 L 140 185 L 150 185" />
+    <!-- J Shape -->
+    <path d="M 190 115 L 160 115 L 160 170 C 160 185 145 190 135 185" />
+    
+    <!-- AI Neural Cross-Links -->
+    <line x1="110" y1="115" x2="160" y2="115" stroke-dasharray="3 3" opacity="0.6" />
+    <line x1="140" y1="185" x2="190" y2="115" stroke-dasharray="3 3" opacity="0.6" />
+  </g>
+
+  <!-- Glowing Nodes -->
+  <circle cx="110" cy="115" r="5" fill="#00f2fe" filter="url(#avatarGlow)" />
+  <circle cx="190" cy="115" r="5" fill="#ff007a" filter="url(#avatarGlow)" />
+  <circle cx="140" cy="185" r="5" fill="#9d4edd" filter="url(#avatarGlow)" />
+  <circle cx="160" cy="115" r="4" fill="#00f2fe" />
+  <circle cx="135" cy="185" r="4" fill="#00f59b" filter="url(#avatarGlow)" />
+
+  <!-- Code Tag symbols on bottom -->
+  <text x="150" y="222" font-family="'Fira Code', monospace" font-size="12" font-weight="700" fill="#00f2fe" text-anchor="middle" letter-spacing="2">&lt;AI / DEV&gt;</text>
+</svg>
