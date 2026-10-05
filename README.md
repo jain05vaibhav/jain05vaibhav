@@ -168,7 +168,3 @@
 </div>
 
 <br/>
-
-<div align="center">
-  <sub>⚡ Designed &amp; Engineered with precision by <b>Vaibhav Jain</b> • Built for the frontier of AI</sub>
-</div>
