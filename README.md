@@ -39,12 +39,19 @@ github_portfolio/
 ├── app.js                              # Particle canvas, GitHub API sync, CLI terminal, audio synth
 ├── assets/
 │   ├── banner.svg                       # High-res vector cyberpunk banner
-│   └── avatar.svg                       # Futuristic holographic monogram avatar
-├── profile-readme/                      # GitHub Profile Repository files
-│   ├── README.md                        # The GitHub Profile README for jain05vaibhav/jain05vaibhav
+│   ├── avatar.svg                       # Futuristic holographic monogram avatar
+│   ├── terminal_button.svg              # Interactive Terminal button widget SVG
+│   └── quote_banner.svg                 # Glowing quote banner SVG
+├── profile-readme/                      # GitHub Profile Repository files (jain05vaibhav/jain05vaibhav)
+│   ├── README.md                        # Revamped Profile README matching TSaha4 & Shagnikpaul vibes
+│   ├── assets/
+│   │   ├── terminal_button.svg          # Portfolio terminal trigger SVG
+│   │   └── quote_banner.svg             # Glowing animated quote SVG
 │   └── .github/
 │       └── workflows/
-│           └── snake.yml                # Daily automated contribution snake workflow
+│           ├── city.yml                 # 3D Isometric Contribution City builder
+│           ├── pacman.yml               # Pacman contribution graph generator
+│           └── snake.yml                # Daily contribution snake workflow
 └── README.md                            # Documentation & deployment guide
 ```
 

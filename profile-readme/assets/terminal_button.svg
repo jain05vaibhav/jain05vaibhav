@@ -1,0 +1,27 @@
+<svg viewBox="0 0 380 84" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="term-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="376" height="80" rx="10" fill="url(#term-bg)" stroke="#00FF41" stroke-width="1.5"/>
+
+  <!-- Title Bar -->
+  <rect x="2" y="2" width="376" height="22" rx="10" fill="#21262D"/>
+  <rect x="2" y="14" width="376" height="10" fill="#21262D"/>
+  <circle cx="18" cy="13" r="5" fill="#FF5F56"/>
+  <circle cx="34" cy="13" r="5" fill="#FFBD2E"/>
+  <circle cx="50" cy="13" r="5" fill="#27C93F"/>
+  <text x="190" y="17" font-family="'Fira Code', monospace" font-size="10" fill="#8B949E" text-anchor="middle">portfolio.sh</text>
+
+  <!-- Terminal Body Text -->
+  <text x="18" y="46" font-family="'Fira Code', monospace" font-size="14.5" fill="#00FF41">$ cd ~/portfolio &amp;&amp; open .</text>
+  <text x="18" y="67" font-family="'Fira Code', monospace" font-size="13" fill="#58A6FF">➜ jain05vaibhav.github.io</text>
+
+  <!-- Blinking Cursor -->
+  <rect x="235" y="55" width="8" height="14" fill="#00FF41">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

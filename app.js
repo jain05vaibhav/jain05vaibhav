@@ -1154,18 +1154,49 @@ function initModalsAndForms() {
 
   function renderReadmePreview() {
     readmeContent.innerHTML = `
-      <div style="text-align: center; margin-bottom: 20px;">
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,26,45&height=180&section=header&text=VAIBHAV%20JAIN&fontSize=42&fontAlignY=36&animation=fadeIn&fontColor=00f2fe&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20GenAI%20Developer%20%E2%80%A2%20Full-Stack%20Creator&descSize=16&descAlignY=60&descAlign=50" style="max-width: 100%; border-radius: 8px;" alt="Banner" />
+      <div style="text-align: center; margin-bottom: 24px;">
+        <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0F172A,50:0E7490,100:22D3EE&text=Vaibhav%20Jain&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=35&textBg=false" style="width: 100%; border-radius: 8px;" alt="Banner" />
         <br><br>
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=600&height=40&lines=👋+Hello+World!+I'm+Vaibhav+Jain;🚀+AI+%26+Machine+Learning+Engineer;🧠+Building+Generative+AI+%26+LLM+Apps" style="max-width: 100%;" alt="Typing SVG" />
+        <img src="assets/terminal_button.svg" width="380" alt="Terminal Button" style="margin-bottom: 16px;" />
+        <br>
+        <img src="assets/quote_banner.svg" style="width: 100%; margin-bottom: 16px;" alt="Quote Banner" />
+        <br>
+        <img src="https://komarev.com/ghpvc/?username=jain05vaibhav&label=Profile%20views&color=00FFFF&style=flat-square" alt="Profile Views" style="margin-bottom: 20px;" />
+        <br>
+        <img src="https://i.pinimg.com/originals/ad/fc/cd/adfccd6a72515359c1c283f912b67616.gif" style="width: 100%; border-radius: 10px; margin-bottom: 24px;" alt="Pixel City" />
       </div>
 
-      <div style="border-top: 1px solid #30363d; padding-top: 16px; margin-top: 16px;">
-        <h3 style="color: #58a6ff; margin-bottom: 10px;">Executive Summary</h3>
-        <p style="color: #8b949e; line-height: 1.6;">
-          Engineered for repository <code>jain05vaibhav/jain05vaibhav/README.md</code> with animated typing SVG, 
-          live dynamic stats, streak tracker, top languages, trophies, and automated daily contribution snake game.
-        </p>
+      <div style="border-top: 1px solid #30363d; padding-top: 20px; color: #c9d1d9; line-height: 1.6;">
+        <h3 style="color: #58a6ff; margin-bottom: 12px;">📌 About Me</h3>
+        <ul style="padding-left: 20px; margin-bottom: 20px;">
+          <li>🎓 B.Tech Computer Science &amp; Engineering (AI/ML)</li>
+          <li>🐛 Professional bug creator, occasional bug fixer</li>
+          <li>☕ Turning tea into code since sophomore year</li>
+          <li>🧠 Deep into AI/ML &amp; LLMs, always chasing the next paper or framework to break</li>
+          <li>💻 Equally at home shipping SDE / full-stack web dev work when the vibe calls for it</li>
+          <li>🚀 Perpetually learning, perpetually one Stack Overflow tab away from disaster</li>
+          <li>🌐 Have a look 😎: <a href="https://jain05vaibhav.github.io" target="_blank" style="color:#22d3ee;">jain05vaibhav.github.io</a></li>
+        </ul>
+
+        <h3 style="color: #58a6ff; margin-bottom: 12px;">🧠 My Focus Areas</h3>
+        <ul style="padding-left: 20px; margin-bottom: 24px;">
+          <li>Artificial Intelligence &amp; Machine Learning</li>
+          <li>Generative AI, Large Language Models (LLMs) &amp; RAG Systems</li>
+          <li>Autonomous Agents &amp; Multi-Turn Conversational Architectures</li>
+          <li>Computer Vision &amp; Speech Intelligence</li>
+          <li>Full-Stack / Web Development &amp; Scalable Backend APIs</li>
+          <li>High-Performance C++ &amp; Algorithmic Problem Solving</li>
+          <li>Whatever new tech breaks my brain this month</li>
+        </ul>
+
+        <h3 style="color: #58a6ff; margin-bottom: 16px;">🌌 Planetary Top Languages</h3>
+        <div style="text-align: center; margin-bottom: 24px;">
+          <img src="https://stats.pphat.top/languages?username=jain05vaibhav" alt="Planetary Galaxy" style="width: 100%; border-radius: 10px;" />
+        </div>
+
+        <div style="text-align: center; margin-top: 24px;">
+          <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Pacman Footer" style="width: 100%;" />
+        </div>
       </div>
     `;
   }
