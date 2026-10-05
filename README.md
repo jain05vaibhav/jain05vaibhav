@@ -1,127 +1,147 @@
-# ⚡ Vaibhav Jain - GitHub Profile & Interactive Web Portfolio Suite
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0F172A,50:0E7490,100:22D3EE&text=Vaibhav%20Jain&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=35&textBg=false"/>
 
-Welcome to your complete developer showcase suite! This repository delivers a state-of-the-art **Interactive Cyberpunk Portfolio Website** and a **High-Impact GitHub Profile README** equipped with real-time stats, dynamic typing headers, and an automated contribution snake game.
+<p align="center">
+  <a href="https://jain05vaibhav.github.io">
+    <img src="assets/terminal_button.svg" width="380" alt="Portfolio Terminal Button"/>
+  </a>
+</p>
 
----
+<img src="assets/quote_banner.svg" width="100%" alt="Quote Banner"/>
 
-## 🌟 What Has Been Built
+<p align="center">
+  <a href="https://komarev.com/ghpvc/?username=jain05vaibhav">
+    <img src="https://komarev.com/ghpvc/?username=jain05vaibhav&label=Profile%20views&color=00FFFF&style=flat-square" alt="Vaibhav's profile views" />
+  </a>
+</p>
 
-### 1. 🌐 Interactive Cyberpunk Web Portfolio (`index.html`, `style.css`, `app.js`)
-* **Theme & Visuals:** Futuristic dark cyberpunk glassmorphism with glowing neon cyan, tokyo violet, and acid matrix themes.
-* **Interactive Particle Canvas:** Constellation particles that react to mouse hover, gravitation, and clicks.
-* **Interactive CLI Terminal:** Press `~` or click `CLI [~]` to launch a functional terminal shell supporting commands (`help`, `about`, `projects`, `skills`, `contact`, `stats`, `theme`, `matrix`, `snake`, `clear`).
-* **Live GitHub Integration:** Dynamically fetches your repositories from the GitHub API (`jain05vaibhav`) with built-in rich architectural fallbacks for your actual AI/ML, NLP, Computer Vision, and C++ projects.
-* **Real-time Filter & Search:** Instant multi-category filtering (`All`, `AI/ML & GenAI`, `CV & Audio`, `Algorithms & Core`, `Web & Systems`).
-* **Project Architecture Modals:** Click *Inspect Specs* on any card to view problem statements, solution design, and technical pipelines.
-* **Audio Synthesizer Engine:** Native Web Audio API sound synthesis with futuristic micro-interaction sound effects (with mute toggle).
-* **Interactive Activity Heatmap:** 52-week simulated commit grid with live hover telemetry HUD.
+<img src="https://i.pinimg.com/originals/ad/fc/cd/adfccd6a72515359c1c283f912b67616.gif" alt="Pixel City Banner" width="100%" />
 
-### 2. 🚀 GitHub Profile README (`profile-readme/README.md`)
-* Built specifically for your special GitHub repository: `https://github.com/jain05vaibhav/jain05vaibhav`.
-* **Animated Cyber Header Banner:** Gradient waving capsule header with your name and engineering title.
-* **Dynamic Typing Headline:** Real-time SVG typing effect showcasing your core disciplines.
-* **Executive Terminal Overview:** YAML-styled developer profile and mission statement.
-* **Technical Arsenal Grid:** Styled shields and devicons organized across AI/ML, GenAI & LLMs, Languages, Backend, and DevOps.
-* **Highlighted Repositories Table:** Custom cards for your flagship projects (`ET-Hackathon-Gen-AI-Conceirge`, `Predictive-Multi-Objective-Compression-Selection`, `College_Feedback_Classifier`, `DSA`).
-* **Real-time Telemetry Cards:** TokyoNight-themed lifetime stats, streak tracker, top languages, and activity graph.
-* **GitHub Profile Trophies:** Matrix-themed achievement trophy case.
-* **Contribution Snake Eater:** Animated SVG eating your GitHub contribution squares.
-* **Automated GitHub Action (`profile-readme/.github/workflows/snake.yml`):** Automatically generates and updates your contribution snake every 24 hours.
+## 📌 About Me
+- 🎓 B.Tech Computer Science & Engineering (AI/ML)
+- 🐛 Professional bug creator, occasional bug fixer
+- ☕ Turning tea into code since sophomore year
+- 🧠 Deep into AI/ML & LLMs, always chasing the next paper or framework to break
+- 💻 Equally at home shipping SDE / full-stack web dev work when the vibe calls for it
+- 🚀 Perpetually learning, perpetually one Stack Overflow tab away from disaster
+- 🌐 Have a look 😎: [jain05vaibhav.github.io](https://jain05vaibhav.github.io)
 
----
+<br/>
 
-## 📁 Repository Structure
+## 🧠 My Focus Areas
+- Artificial Intelligence & Machine Learning
+- Generative AI, Large Language Models (LLMs) & RAG Systems
+- Autonomous Agents & Multi-Turn Conversational Architectures
+- Computer Vision & Speech Intelligence
+- Full-Stack / Web Development & Scalable Backend APIs
+- High-Performance C++ & Algorithmic Problem Solving
+- Whatever new tech breaks my brain this month
 
-```text
-github_portfolio/
-├── index.html                           # The interactive web portfolio
-├── style.css                            # Cyberpunk glassmorphism design system
-├── app.js                              # Particle canvas, GitHub API sync, CLI terminal, audio synth
-├── assets/
-│   ├── banner.svg                       # High-res vector cyberpunk banner
-│   ├── avatar.svg                       # Futuristic holographic monogram avatar
-│   ├── terminal_button.svg              # Interactive Terminal button widget SVG
-│   └── quote_banner.svg                 # Glowing quote banner SVG
-├── profile-readme/                      # GitHub Profile Repository files (jain05vaibhav/jain05vaibhav)
-│   ├── README.md                        # Revamped Profile README matching TSaha4 & Shagnikpaul vibes
-│   ├── assets/
-│   │   ├── terminal_button.svg          # Portfolio terminal trigger SVG
-│   │   └── quote_banner.svg             # Glowing animated quote SVG
-│   └── .github/
-│       └── workflows/
-│           ├── city.yml                 # 3D Isometric Contribution City builder
-│           ├── pacman.yml               # Pacman contribution graph generator
-│           └── snake.yml                # Daily contribution snake workflow
-└── README.md                            # Documentation & deployment guide
-```
+<br/>
 
----
+## 🗓️ Contributions Calendar
 
-## 🚀 How to Deploy & Activate
+<div align="center">
+  <img src="profile-3d-city.svg" alt="3D City Contributions" width="100%" onerror="this.src='https://github-readme-activity-graph.vercel.app/graph?username=jain05vaibhav&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f2fe&line=00f2fe&point=ff007a'" />
+</div>
 
-### Step 1: Activate Your GitHub Profile README
-Your GitHub profile displays the `README.md` from a special repository named after your GitHub username (`jain05vaibhav/jain05vaibhav`).
+<p align="center">
+  <a href="https://github.com/jain05vaibhav">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jain05vaibhav&cache_seconds=7200&layout=compact&theme=tokyonight&border_radius=10" alt="Vaibhav's GitHub Stats" />
+  </a>
+  <img src="https://streak-stats.demolab.com/?user=jain05vaibhav&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Vaibhav's GitHub Streak" width="49%" />
+</p>
 
-1. Go to [GitHub](https://github.com/new) and create a **new public repository** named:
-   ```text
-   jain05vaibhav
-   ```
-   *(Ensure it is **Public** and initialized with a README if you like, or push directly).*
-2. Copy the contents of [`profile-readme/README.md`](file:///c:/Users/Vaibhav/Desktop/projects/github_portfolio/profile-readme/README.md) into that repository's `README.md`.
-3. Copy the [`.github/workflows/snake.yml`](file:///c:/Users/Vaibhav/Desktop/projects/github_portfolio/profile-readme/.github/workflows/snake.yml) folder and file into that repository.
-4. **Enable GitHub Actions Permissions:**
-   - In your `jain05vaibhav/jain05vaibhav` repo on GitHub, go to **Settings** &rarr; **Actions** &rarr; **General**.
-   - Under **Workflow permissions**, select **"Read and write permissions"** and click **Save**.
-   - Go to the **Actions** tab, select **Generate Contribution Snake Animation**, and click **Run workflow**.
-   - Once completed, the snake animation will appear on your GitHub profile!
+<br/>
 
----
+## 🛠️ Languages & Tools
 
-### Step 2: Deploy Your Interactive Web Portfolio to GitHub Pages (1-Click & Free)
+<h3 align="center">Programming Languages</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" />
+</p>
 
-You can host your portfolio for free on GitHub Pages:
+<h3 align="center">AI, Machine Learning &amp; GenAI</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="NumPy" width="40" />
+</p>
 
-1. In this workspace folder (`c:\Users\Vaibhav\Desktop\projects\github_portfolio`), initialize Git if not already done:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: launch interactive cyberpunk developer portfolio"
-   ```
-2. Create a new repository on GitHub named:
-   - `jain05vaibhav.github.io` *(if you want it at `https://jain05vaibhav.github.io`)*  
-   **OR**  
-   - `portfolio` *(will be available at `https://jain05vaibhav.github.io/portfolio`)*
-3. Link and push your code:
-   ```bash
-   git remote add origin https://github.com/jain05vaibhav/jain05vaibhav.github.io.git
-   git branch -M main
-   git push -u origin main
-   ```
-4. On GitHub, navigate to **Settings** &rarr; **Pages**:
-   - Under **Source**, select `Deploy from a branch`.
-   - Branch: `main` / Folder: `/(root)`.
-   - Click **Save**.
-5. Your interactive portfolio is now live on the internet!
+<h3 align="center">Frontend</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" />
+</p>
 
----
+<h3 align="center">Backend</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-ar21.svg" alt="Flask" width="40" />
+</p>
 
-## 💻 Local Testing & Preview
+<h3 align="center">Database</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />
+</p>
 
-To run and preview the website locally on your computer:
+<h3 align="center">DevOps &amp; Cloud</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub Actions" width="40" />
+</p>
 
-```powershell
-# Using Python built-in HTTP server:
-python -m http.server 3000
-```
-Then open your browser at:
-```text
-http://localhost:3000
-```
-Or double-click `index.html` in your file explorer!
+<h3 align="center">Tools</h3>
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="40" />&nbsp;&nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" />
+</p>
 
----
+<br/>
 
-## 🛠️ Customization & Tweaks
-* **Themes:** You can change the default accent in `index.html` by setting `data-theme="cyan"`, `data-theme="purple"`, or `data-theme="matrix"`.
-* **Social Links:** Update your LinkedIn profile URL in both `index.html` and `profile-readme/README.md`.
-* **Projects:** The portfolio dynamically retrieves your public repositories from GitHub. You can also customize static highlights directly in `app.js` under `defaultProjects`.
+<div align="center">
+  <!-- Celestial Planetary Top Languages Galaxy Graphic -->
+  <a href="https://github.com/jain05vaibhav">
+    <img src="https://stats.pphat.top/languages?username=jain05vaibhav" alt="Top Languages Celestial Galaxy Map" width="100%" />
+  </a>
+</div>
+
+<br/>
+
+## 🔗 Connect with Me
+<p align="center">
+  <a href="https://linkedin.com/in/">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="44" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:jain05vaibhav@gmail.com">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/Gmail.svg" alt="Gmail" width="44" />
+  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://jain05vaibhav.github.io">
+    <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/SVG/Color/WWW.svg" alt="Website" width="44" />
+  </a>
+</p>
+
+<br/>
+
+<div align="center">
+  <!-- Animated Pacman Eating Ghosts Footer Line -->
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Bottom Pacman Line" width="100%" />
+</div>
